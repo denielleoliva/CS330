@@ -10,7 +10,6 @@ public class Store extends PointOfSale{
 
         orderId = new Computer();
 
-        //input.close();
 
     }
 

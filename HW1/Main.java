@@ -8,9 +8,6 @@ public class Main {
         PointOfSale kiosk;
         kiosk = new Kiosk();
 
-
-        //kiosk.transaction();
-
         PointOfSale store;
         store = new Store();
 
