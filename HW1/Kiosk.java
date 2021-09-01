@@ -5,6 +5,7 @@ public class Kiosk extends PointOfSale {
 
         payment = new Cash();
         
+        orderId = new Ticket();
 
     }
 }

@@ -8,17 +8,26 @@ public class Main {
         PointOfSale kiosk;
         kiosk = new Kiosk();
 
+
         //kiosk.transaction();
 
         PointOfSale store;
         store = new Store();
 
         while(true){
+            System.out.println("**************************************");
+
             System.out.println("Are you at a Store(1) or a Kiosk(2)?");
             System.out.println("Enter 0 to exit.");
             System.out.print("Enter selection here: ");
 
+
             int choice = scan.nextInt();
+
+            System.out.println("**************************************");
+            System.out.println();
+            System.out.println();
+            System.out.println("**************************************");
 
             switch(choice){
                 case 0:
@@ -27,6 +36,7 @@ public class Main {
                     store.transactionType();
                     break;
                 case 2:
+                    kiosk.generateOrder();
                     kiosk.transaction();
                     break;
                 default:

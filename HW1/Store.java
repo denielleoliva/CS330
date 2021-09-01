@@ -8,6 +8,8 @@ public class Store extends PointOfSale{
         
         System.out.println("Store POS Online!");
 
+        orderId = new Computer();
+
         //input.close();
 
     }
@@ -16,6 +18,14 @@ public class Store extends PointOfSale{
 
         while(true){
             Scanner input = new Scanner(System.in);
+
+            System.out.println("**************************************");
+            System.out.println();
+            System.out.println();
+            System.out.println("**************************************");
+
+            this.generateOrder();
+
             System.out.println("0/ Cash");
             System.out.println("1/ Credit");
             System.out.println("2/ Exit");
