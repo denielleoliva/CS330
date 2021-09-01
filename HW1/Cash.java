@@ -19,7 +19,7 @@ public class Cash implements TransactionBehavior {
 
         System.out.println("Change Due: " + changeDue);
 
-        input.close();
+        //input.close();
     }
 
 

@@ -18,7 +18,7 @@ public class Credit implements TransactionBehavior{
 
         System.out.println("Thank you for your purchase!");
 
-        input.close();
+        //input.close();
 
     }
 

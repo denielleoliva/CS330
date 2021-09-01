@@ -1,33 +1,44 @@
 import java.util.Scanner;
 
 public class Store extends PointOfSale{
-    private int userChoice;
+    public int userChoice;
     TransactionBehavior temp;
 
     public Store(){
-        Scanner input = new Scanner(System.in);
-
+        
         System.out.println("Store POS Online!");
 
-        do{
-            System.out.println("0/ Cash Payment");
-            System.out.println("1/ Credit Payment");
-            System.out.println("2/ Exit to Main Menu");
+        while(true){
+            Scanner input = new Scanner(System.in);
+            System.out.println("0/ Cash");
+            System.out.println("1/ Credit");
+            System.out.println("2/ Exit");
 
-            userChoice = input.nextInt();
+            System.out.print("Transaction Type? ");
+            int choice = Integer.valueOf(input.nextLine());
 
-            switch(userChoice){
+            switch(choice){
                 case 0:
                     payment = new Cash();
+                    this.transaction();
+                    break;
                 case 1:
                     payment = new Credit();
-                default:
-                    System.out.println("Invalid choice. Choose option provided.");
+                    this.transaction();
                     break;
+                case 2:
+                    //System.exit(0);
+                    break;
+                default:
+                    System.out.println("Enter valid input");
             }
-        }while(userChoice!=2);
+            if(choice == 2){
+                break;
+            }
+        }
 
-        input.close();
+        
+        //input.close();
 
     }
 
