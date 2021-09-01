@@ -26,24 +26,23 @@ public class Store extends PointOfSale{
 
             this.generateOrder();
 
-            System.out.println("0/ Cash");
-            System.out.println("1/ Credit");
-            System.out.println("2/ Exit");
+            System.out.println("1/ Cash");
+            System.out.println("2/ Credit");
+            System.out.println("0/ Exit");
 
             System.out.print("Transaction Type? ");
             int choice = Integer.valueOf(input.nextLine());
 
             switch(choice){
-                case 0:
+                case 1:
                     payment = new Cash();;
                     this.transaction();
                     break;
-                case 1:
+                case 2:
                     payment = new Credit();
                     this.transaction();
                     break;
-                case 2:
-                    //System.exit(0);
+                case 0:
                     break;
                 default:
                     System.out.println("Enter valid input");
