@@ -23,4 +23,8 @@ public abstract class PointOfSale{
         orderId = ob;
     }
 
+    public void transactionType(){
+
+    }
+
 }

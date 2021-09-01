@@ -8,6 +8,12 @@ public class Store extends PointOfSale{
         
         System.out.println("Store POS Online!");
 
+        //input.close();
+
+    }
+
+    public void transactionType(){
+
         while(true){
             Scanner input = new Scanner(System.in);
             System.out.println("0/ Cash");
@@ -19,7 +25,7 @@ public class Store extends PointOfSale{
 
             switch(choice){
                 case 0:
-                    payment = new Cash();
+                    payment = new Cash();;
                     this.transaction();
                     break;
                 case 1:
@@ -36,9 +42,6 @@ public class Store extends PointOfSale{
                 break;
             }
         }
-
-        
-        //input.close();
 
     }
 
