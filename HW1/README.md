@@ -26,8 +26,11 @@ When the program is run the user will be prompted to select from a menu that
 contains the possible actions moving forward.
 
 Expected output:
+
 *Are you at a Store(1) or a Kiosk(2)*
+
 *Enter 0 to exit.*
+
 *Enter selection here:*
 
 Possible outputs after this depend on what the user decides to enter.
@@ -39,12 +42,25 @@ the Store transaction, the Kiosk option will only give you the option to
 process cash payments.
 
 Cash Usage:
+
 *Enter Ticket Order Number: <order number>*
+
 *Kiosk Order Number: xxx*
+
 *Enter amount due: <amount of sale>*
+
 *Enter amount paid: <amount paid>*
+
 *Change Due: XX.XX*
+
 *Thank you for your purchase*
+
+Credit Usage:
+
+*Enter card number: <card number>*
+
+*Enter amount due: <amount of sale>*
+
 
 To exit the program the user will only need to select 0 when prompted by the
 program while a menu is displayed.
