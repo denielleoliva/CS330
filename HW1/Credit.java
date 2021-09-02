@@ -7,6 +7,13 @@ public class Credit implements TransactionBehavior{
     public float changeDue;
     public BigInteger cardNumber;
 
+    /**
+    * Provides functionality for credit transactions. 
+    * 
+    *
+    * @param none
+    * @return none
+    */
     public void transaction(){
 
         Scanner input = new Scanner(System.in);

@@ -1,3 +1,11 @@
+/**
+  * Provides functionality for credit transactions. 
+  * 
+  *
+  * @param none
+  * @return none
+  */
+
 public class Kiosk extends PointOfSale {
     
     public Kiosk(){

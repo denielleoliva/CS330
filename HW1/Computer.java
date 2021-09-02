@@ -3,6 +3,14 @@ public class Computer implements OrderBehavior{
 
     int orderNum = 0;
 
+    /**
+    * Order number for store POS
+    * Order number is generated not entered
+    *
+    * @param none
+    * @return none
+    */
+
     public void generateOrder(){
         counter++;
         orderNum = counter;

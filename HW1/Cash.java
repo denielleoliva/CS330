@@ -6,6 +6,14 @@ public class Cash implements TransactionBehavior {
     public double amountPaid;
     public double changeDue;
 
+
+    /**
+    * Provides functionality for cash transactions. 
+    * Checks if sufficient funds are provided and displays change if necessary
+    *
+    * @param none
+    * @return none
+    */
     public void transaction(){
         Scanner input = new Scanner(System.in);
 
