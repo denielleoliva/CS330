@@ -71,4 +71,4 @@ Further development for the program can be done to take care of edge cases.
 There are edge cases that deal with the correct data type being inputted that
 could be coded against.
 
-                                                                               1
+                                                                               
