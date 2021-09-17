@@ -1,6 +1,6 @@
-public class Lights extends ChristmasTreeDecorator{
+public class Lights extends TreeDecorator{
     
-    public Lights(ChristmasTree christmasTree){
+    public Lights(Tree christmasTree){
         this.christmasTree=christmasTree;
     }
 

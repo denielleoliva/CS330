@@ -1,7 +1,11 @@
-public class Star extends ChristmasTreeDecorator{
+public class Star extends TreeDecorator{
     
-    public Star(ChristmasTree christmasTree){
-        this.christmasTree=christmasTree;
+    public Star(Tree christmasTree){
+        if(this.christmasTree instanceof Star){
+            System.out.println("Tree already has a Star!");
+        }else{
+            this.christmasTree=christmasTree;
+        }
     }
 
     public String getDescription(){

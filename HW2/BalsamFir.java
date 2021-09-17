@@ -1,4 +1,4 @@
-public class BalsamFir extends ChristmasTree{
+public class BalsamFir extends Tree{
     
     public BalsamFir(){
         description = "Balsam Fir";

@@ -1,6 +1,6 @@
-public class Ribbons extends ChristmasTreeDecorator{
+public class Ribbons extends TreeDecorator{
     
-    public Ribbons(ChristmasTree christmasTree){
+    public Ribbons(Tree christmasTree){
         this.christmasTree=christmasTree;
     }
 

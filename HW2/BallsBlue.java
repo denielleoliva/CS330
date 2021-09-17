@@ -1,6 +1,6 @@
-public class BallsBlue extends ChristmasTreeDecorator{
+public class BallsBlue extends TreeDecorator{
     
-    public BallsBlue(ChristmasTree christmasTree){
+    public BallsBlue(Tree christmasTree){
         this.christmasTree=christmasTree;
     }
 

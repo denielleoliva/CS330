@@ -1,4 +1,4 @@
-public class ColoradoBlueSpruce extends ChristmasTree{
+public class ColoradoBlueSpruce extends Tree{
     
     public ColoradoBlueSpruce(){
         description = "Colorado Blue Spruce Fir";
