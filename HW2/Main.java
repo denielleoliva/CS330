@@ -4,11 +4,21 @@ public class Main{
 
     public static void main(String[] args){
 
-        ChristmasTree 
+        Tree mytree = new ColoradoBlueSpruce();
+        mytree = new Star(mytree);
+        mytree = new Ruffles(mytree);
+        mytree = new Star(mytree);
+        mytree = new Ruffles(mytree);
+
+        System.out.println(mytree.getDescription()+ "costs $" + mytree.cost() + ".");
 
     }
 
+        
+
 }
+
+
 
 // class Main {
 

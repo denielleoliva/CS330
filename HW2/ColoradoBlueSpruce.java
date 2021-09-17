@@ -1,7 +1,7 @@
 public class ColoradoBlueSpruce extends Tree{
     
     public ColoradoBlueSpruce(){
-        description = "Colorado Blue Spruce Fir";
+        description = "Blue Spruce is decorated with ";
     }
 
     public int cost(){

@@ -1,7 +1,7 @@
 public class FraserFir extends Tree{
     
     public FraserFir(){
-        description = "Fraser Fir";
+        description = "Fraser Fir is decorated with ";
     }
 
     public int cost(){

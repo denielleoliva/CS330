@@ -1,7 +1,7 @@
 public abstract class Tree {
     String description = "unknown Christmas Tree";
 
-    public void printtree(){
+    public void printtree(Tree mytree){
 
         System.out.println(this.getDescription()+ "costs $" + this.cost() + ".");
     }
