@@ -1,10 +1,10 @@
+
+
 public abstract class Tree {
     String description = "unknown Christmas Tree";
 
-    public void printtree(Tree mytree){
-
-        System.out.println(this.getDescription()+ "costs $" + this.cost() + ".");
-    }
+    final static TrackStars starState = new TrackStars();
+    
 
     public String getDescription(){
         return description;
